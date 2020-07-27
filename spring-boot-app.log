@@ -1,0 +1,49 @@
+2020-07-27 15:31:46.477  INFO 9016 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-PI4VP7I with PID 9016 (started by Indra in F:\Indra\Java\Udacity\Security&DevOps\P04-eCommerce Application\starter_code)
+2020-07-27 15:31:46.489  INFO 9016 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-07-27 15:31:48.433  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-27 15:31:48.600  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151ms. Found 4 repository interfaces.
+2020-07-27 15:31:49.575  INFO 9016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cfe5176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-27 15:31:50.018  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-27 15:31:50.078  INFO 9016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-27 15:31:50.079  INFO 9016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-07-27 15:31:50.354  INFO 9016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-27 15:31:50.355  INFO 9016 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3653 ms
+2020-07-27 15:31:50.636  INFO 9016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-27 15:31:50.779  INFO 9016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-27 15:31:50.852  INFO 9016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-27 15:31:50.949  INFO 9016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-07-27 15:31:50.952  INFO 9016 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-07-27 15:31:51.105  INFO 9016 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-27 15:31:51.298  INFO 9016 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-27 15:31:52.408  INFO 9016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-27 15:31:53.515  INFO 9016 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ae5580, org.springframework.security.web.context.SecurityContextPersistenceFilter@5807ea46, org.springframework.security.web.header.HeaderWriterFilter@3cc2e3e, org.springframework.web.filter.CorsFilter@4203529f, org.springframework.security.web.authentication.logout.LogoutFilter@78a165db, com.example.demo.security.JWTAuthenticationFilter@7d82ca56, com.example.demo.security.JWTAuthenticationVerificationFilter@2aaa89c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ee68377, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d5a72cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a58db42, org.springframework.security.web.session.SessionManagementFilter@4189e668, org.springframework.security.web.access.ExceptionTranslationFilter@1253b822, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6949cead]
+2020-07-27 15:31:53.768  INFO 9016 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 15:31:53.818  WARN 9016 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-27 15:31:54.154  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-27 15:31:54.158  INFO 9016 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 8.717 seconds (JVM running for 10.65)
+2020-07-27 15:32:03.408  INFO 9016 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 15:32:03.409  INFO 9016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-27 15:32:03.426  INFO 9016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-07-27 15:32:03.648  INFO 9016 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Creating user indra
+2020-07-27 15:32:04.028  INFO 9016 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User created successfully
+2020-07-27 15:32:14.764  INFO 9016 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Creating user Rambo
+2020-07-27 15:32:14.765 ERROR 9016 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Error with userpassword. Unable to create user Rambo
+2020-07-27 15:32:29.072  INFO 9016 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Creating user Raju
+2020-07-27 15:32:29.073 ERROR 9016 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Error with userpassword. Unable to create user Raju
+2020-07-27 15:32:43.030  INFO 9016 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Creating user indrahas
+2020-07-27 15:32:43.203  INFO 9016 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User created successfully
+2020-07-27 15:32:54.101  INFO 9016 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Creating user bro
+2020-07-27 15:32:54.271  INFO 9016 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : User created successfully
+2020-07-27 15:33:00.031  INFO 9016 --- [http-nio-8080-exec-9] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-07-27 15:34:25.178  INFO 9016 --- [http-nio-8080-exec-3] c.e.demo.controllers.CartController      : Item/Items added to cart successfully
+2020-07-27 15:35:03.307 ERROR 9016 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      :  Username not found.
+2020-07-27 15:35:11.517 ERROR 9016 --- [http-nio-8080-exec-5] c.e.demo.controllers.CartController      :  Item not found.
+2020-07-27 15:35:39.606 ERROR 9016 --- [http-nio-8080-exec-7] c.e.demo.controllers.CartController      :  Item not found.
+2020-07-27 15:35:51.866  INFO 9016 --- [http-nio-8080-exec-6] c.e.demo.controllers.CartController      : Item/Items added to cart successfully
+2020-07-27 15:36:23.025 ERROR 9016 --- [http-nio-8080-exec-8] c.e.demo.controllers.CartController      :  Item not found.
+2020-07-27 15:36:29.141  INFO 9016 --- [http-nio-8080-exec-9] c.e.demo.controllers.CartController      : Item/Items added to cart successfully
+2020-07-27 15:37:32.144  INFO 9016 --- [http-nio-8080-exec-2] c.e.demo.controllers.OrderController     : Order submitted successfully
+2020-07-27 15:37:45.865 ERROR 9016 --- [http-nio-8080-exec-3] c.e.demo.controllers.OrderController     : Invalid Username
+2020-07-27 15:40:22.485  INFO 9016 --- [http-nio-8080-exec-10] c.e.demo.controllers.CartController      : Item/Items removed from cart successfully
